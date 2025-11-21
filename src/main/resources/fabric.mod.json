@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "geneticraft",
+	"version": "${version}",
+	"name": "GenetiCraft",
+	"description": "Semi-realistic genetic engineering in Minecraft!",
+	"authors": [
+		"SpoonicusIV"
+	],
+	"contact": {
+		"homepage": "https://spoonicusiv.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/geneticraft/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.spoonicusiv.geneticraft.GenetiCraft"
+		],
+		"fabric-datagen": [
+			"net.spoonicusiv.geneticraft.GenetiCraftDataGenerator"
+		],
+		"client": [
+			"net.spoonicusiv.geneticraft.GenetiCraftClient"
+		]
+	},
+	"mixins": [
+		"geneticraft.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.18.1",
+		"minecraft": "~1.21.10",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
