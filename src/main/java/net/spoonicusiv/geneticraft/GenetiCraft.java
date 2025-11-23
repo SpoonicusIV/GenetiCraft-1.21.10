@@ -2,6 +2,7 @@ package net.spoonicusiv.geneticraft;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.spoonicusiv.geneticraft.block.ModBlocks;
 import net.spoonicusiv.geneticraft.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -14,5 +15,6 @@ public class GenetiCraft implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }
