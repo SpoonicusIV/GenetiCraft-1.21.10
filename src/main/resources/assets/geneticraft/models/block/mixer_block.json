@@ -1,6 +1,11 @@
 {
-  "parent": "minecraft:block/cube_all",
+  "parent": "minecraft:block/cube",
   "textures": {
-    "all": "geneticraft:block/mixer_block"
+    "down": "geneticraft:block/mixer_block/mixer_down",
+    "up": "geneticraft:block/mixer_block/mixer_up",
+    "north": "geneticraft:block/mixer_block/mixer_north",
+    "south": "geneticraft:block/mixer_block/mixer_south",
+    "west": "geneticraft:block/mixer_block/mixer_west",
+    "east": "geneticraft:block/mixer_block/mixer_east"
   }
 }
