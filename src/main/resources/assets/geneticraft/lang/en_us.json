@@ -1,5 +1,9 @@
 {
   "item.geneticraft.plastic_brick": "Plastic Brick",
   "item.geneticraft.plastic_pellet": "Plastic Pellet",
-  "item.geneticraft.mixer_block": "Mixer"
+  "item.geneticraft.microfuge_tube_empty": "Empty Microcentrifuge Tube",
+  "item.geneticraft.mixer_block": "Mixer",
+
+  "itemgroup.geneticraft.geneticraft_items": "GenetiCraft Items",
+  "itemgroup.geneticraft.geneticraft_blocks": "Geneticraft Blocks"
 }

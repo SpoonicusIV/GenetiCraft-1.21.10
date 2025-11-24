@@ -18,6 +18,9 @@ public class ModItems {
     public static final  Item PLASTIC_PELLET = registerItem("plastic_pellet", new Item(new Item.Settings().
             registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(GenetiCraft.MOD_ID,"plastic_pellet")))));
 
+    public static final  Item MICROFUGE_TUBE_EMPTY = registerItem("microfuge_tube_empty", new Item(new Item.Settings().
+                registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(GenetiCraft.MOD_ID,"microfuge_tube_empty")))));
+
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(GenetiCraft.MOD_ID, name), item);
@@ -30,6 +33,7 @@ public class ModItems {
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(entries -> {
             entries.add(PLASTIC_BRICK);
             entries.add(PLASTIC_PELLET);
+            entries.add(MICROFUGE_TUBE_EMPTY);
         });
     }
 }
